@@ -1,0 +1,56 @@
+.navigation{
+	display: flex; 
+	list-style-type: none;
+	
+
+}
+.navigation li{
+	margin-left: 30px;
+}
+.top{display: flex;
+justify-content: space-between;
+width: 90%;
+margin: auto;}
+.baner {
+	width: 100%;
+}
+.bottom{
+	display: flex;
+	width: 90%;
+	margin: auto;
+}
+ .left{
+ 	width: 15%;
+ 	margin-right: 20px;
+
+ }
+ .item{display: flex;
+ 	justify-content: space-between;}
+.chaild{
+	margin: 10px;
+
+}
+.chaild img{
+	width: 100%;
+}
+.burger{
+	width: 50px;
+	display: none;
+
+}
+
+
+@media screen and (max-width: 700px){
+	.bottom{
+		display: block;
+	}
+	.left{
+		width: 100%; text-align: center;
+	}
+	.item{flex-wrap: wrap;}
+	.navigation{
+		display: none;
+
+	}
+	.burger{display: block;}
+}
